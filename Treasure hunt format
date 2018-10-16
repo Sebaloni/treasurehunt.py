@@ -1,0 +1,22 @@
+#Format for the Teasure hunt game
+
+def function(EASY):
+    print(format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), sep='')
+    print(format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), sep='')
+    print(format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), sep='')
+
+#4X4
+def function(MEDIUM):
+    print(format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), sep='')
+    print(format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), sep='')
+    print(format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), sep='')
+    print(format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), sep='')
+
+#5X5
+def function(HARD):
+    print(format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), sep='')
+    print(format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), sep='')
+    print(format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), sep='')
+    print(format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), sep='')
+    print(format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), format('[', ' ^1'), format('X', ' ^1'), format(']', ' ^1'), format('', ' ^1'), sep='')
+
