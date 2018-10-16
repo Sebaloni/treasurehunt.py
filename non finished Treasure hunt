@@ -1,0 +1,53 @@
+#Greeting
+print(format("~","~>35"))
+print(format("Welcome to Treasure Hunt!","~^35"))
+print(format("~","~>35"))
+print("")
+
+#Row Function
+def row_change(row):
+    if row == "a":
+        row = 0
+    elif row == "b":
+        row = 1
+    elif row == "c":
+        row = 2
+    elif row == "d":
+        row = 3
+    elif row == "e":
+        row = 4
+    return row
+
+#Main Function   
+def main()
+    diff = str(input("Enter if you want an 'easy' 'medium' or 'hard' difficulty or enter 'Done' when finished. "))
+    if diff == "easy":
+        print("3x3 function")
+        row = str(input("Enter which row you would like to pick from "))
+        column = int(input("Enter which column you would like to pick from "))
+        row = row_change(row)  
+        Easy[row,column-1]
+    elif diff == "medium":
+        print("4x4 function")
+        row = str(input("Enter which row you would like to pick from "))
+        column = int(input("Enter which column you would like to pick from "))
+        row = row_change(row)
+        Medium[row,column-1]
+    elif diff == "hard":
+        print("5x5 function")
+        row = str(input("Enter which row you would like to pick from "))
+        column = int(input("Enter which column you would like to pick from "))
+        row = row_change(row)
+        Hard[row,column-1]
+    elif diff == "Done":
+               print("Thanks for Playing Treasure Hunt")
+    elif diff != "easy" or "medium" or "hard" or "Done":
+               print("Try again or enter 'Done' to end game")
+               main()
+#Lists
+Easy=[["O","O","O"],["O","O","O"],["O","O","O"]]
+print(Easy)
+Medium=[["O","O","O","O"],["O","O","O","O"],["O","O","O","O"],["O","O","O","O"]]
+print(Medium)
+Hard=[["O","O","O","O","O"],["O","O","O","O","O"],["O","O","O","O","O"],["O","O","O","O","O"],["O","O","O","O","O"]]
+print(Hard)
